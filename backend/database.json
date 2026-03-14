@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "id": "SYS-ADMIN-101",
+            "email": "nodal@karnataka.gov.in",
+            "password": "password",
+            "role": "admin",
+            "name": "Nodal Officer - Bengaluru South",
+            "phone": "+91-9876543210",
+            "district": "Bengaluru Urban",
+            "ward": "All"
+        },
+        {
+            "id": "USR-1000",
+            "email": "citizen@example.com",
+            "password": "password",
+            "role": "citizen",
+            "name": "Citizen Demo",
+            "phone": "+91-9876543210",
+            "district": "Bengaluru Urban",
+            "ward": "172"
+        }
+    ],
+    "complaints": [],
+    "complaint_notifications": []
+}

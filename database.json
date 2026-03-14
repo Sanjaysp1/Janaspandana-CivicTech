@@ -1,0 +1,87 @@
+{
+    "users": [
+        {
+            "id": "SYS-ADMIN",
+            "email": "admin@karnataka.gov.in",
+            "password": "password",
+            "role": "admin",
+            "name": "Nodal Officer",
+            "phone": "080-22221111"
+        },
+        {
+            "id": "USR-1000",
+            "email": "citizen@example.com",
+            "password": "password",
+            "role": "citizen",
+            "name": "Resident",
+            "phone": "+91-9876543210"
+        }
+    ],
+    "complaints": [
+        {
+            "id": "KA-100001",
+            "submitterId": "USR-1000",
+            "text": "There is a massive pothole on the main road, highly dangerous for two wheelers.",
+            "location": "Ward 198, Jayanagar",
+            "coords": {
+                "x": 55,
+                "y": 60
+            },
+            "date": "2026-03-11T19:58:29.253768",
+            "status": "Resolved",
+            "input_type": "text",
+            "category": "Infrastructure",
+            "confidence_score": 95,
+            "district": "Bengaluru Urban",
+            "taluk": "South",
+            "ward": "198",
+            "severity": "Critical",
+            "severity_analysis": "Pothole depth indicates immediate risk of fatal accidents.",
+            "verification_status": "Visually Verified by AI",
+            "ai_score": 92,
+            "department": "BBMP",
+            "assigned_authority": "Chief Engineer - South Zone",
+            "escalation_level": "Level 2 (Urgent)",
+            "detected_language": "English",
+            "translated_text": "There is a massive pothole on the main road, highly dangerous for two wheelers.",
+            "duplicate_status": "Unique Entry",
+            "urgency_flag": true,
+            "detected_keywords": [
+                "dangerous",
+                "accidents"
+            ],
+            "status_history": [
+                {
+                    "status": "Submitted",
+                    "timestamp": "2026-03-11T19:58:29.253768",
+                    "note": "Complaint registered.",
+                    "authority": "System"
+                },
+                {
+                    "status": "Verified",
+                    "timestamp": "2026-03-11T23:58:29.253768",
+                    "note": "AI Verification complete.",
+                    "authority": "CivicTech AI"
+                },
+                {
+                    "status": "In Progress",
+                    "timestamp": "2026-03-12T19:58:29.253768",
+                    "note": "Assigned to Ward Engineer.",
+                    "authority": "BBMP South"
+                },
+                {
+                    "status": "In Progress",
+                    "timestamp": "2026-03-13T20:00:28.359388",
+                    "note": "Assigned to field officer.",
+                    "authority": "Nodal Officer"
+                },
+                {
+                    "status": "Resolved",
+                    "timestamp": "2026-03-13T20:00:31.944812",
+                    "note": "Issue resolved by authority.",
+                    "authority": "Nodal Officer"
+                }
+            ]
+        }
+    ]
+}
