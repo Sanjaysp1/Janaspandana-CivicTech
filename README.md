@@ -1,3 +1,5 @@
+DEMO
+
 🏛️ Janaspandana: The Digital Pulse of Civic Governance
 
 A Next-Generation AI-Powered CivicTech Platform for the Government of Karnataka.
